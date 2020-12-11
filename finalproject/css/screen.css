@@ -1,0 +1,212 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    background-color:#fffff8;
+}
+* {
+    box-sizing: border-box;
+}
+h1{
+    font-family:'Open Sans';
+    color:darkslategray;
+    text-shadow:1px 1px #000000;
+font-size: 2em;
+}
+h2{
+font-size: 1.5em;
+text-align:center;
+font-family:'Open Sans';
+color:black;
+text-shadow:1px black;
+position:relative;
+right:2%;
+}
+h3{
+font-size:1.25em;
+text-align:center;
+font-family:'Open Sans';
+color:black;
+}
+h4{
+    font-size:1.25em;
+
+    }
+p a:link{
+text-decoration: blue underline;
+color:blue;
+}
+p a:hover{
+text-decoration: red underline;
+color:red;
+}
+p a:visited{
+text-decoration: purple underline;
+color:purple;
+}
+p a:active{
+text-decoration:green underline;
+color:green;
+}
+nav {
+background:inherit;
+    width:100%;
+text-align:center;
+}
+nav ul {
+    background: inherit;
+    box-shadow: 6px 6px 6px rgb(0,0,0,);
+    border: 2px black solid;
+    list-style: none;
+    position: relative;
+    right:2%;
+    display: inline-table;
+    color:black;
+    font-weight:900;
+}
+button{
+    background-color:black;
+    color:white;
+    border:1px black solid;
+    border-radius:5px;
+}
+.desc{
+    text-align:center;
+}
+nav ul li {
+    display:inline-table;
+    border:1px black solid;
+    background:lightgray;
+
+}
+nav ul li:hover {
+    background: white;
+}
+nav ul li a {
+    display: block;
+    padding: 25px 40px;
+    color:black;
+    text-decoration: none;
+}
+nav ul li:hover a {
+    color:black;
+    text-decoration: none;
+}
+ul{
+    padding:0px;
+}
+article section{
+
+    padding:0% 1% 0% 1%;
+    margin: 1% 1% 0% 1%;
+    border: 3px black solid;
+}
+article{
+    margin:auto;
+    margin-left: 3%;
+    margin-right:1%;
+}
+
+
+.sectionImg{
+max-width: 100%;
+}
+footer{    text-align:center;
+            background-color: inherit;
+            color:black;
+            width:20%;
+            margin:auto;
+            margin-top: 2%;
+            position:relative;
+            padding: 20px 10px 20px 5px;
+            
+        }
+        .icon-bar {
+            width: 100%; /* Full-width */
+            overflow: auto; /* Overflow due to float */
+            border: 2px solid black;
+            border-radius:20px;
+        }
+        
+        .icon-bar a {
+            float: left; /* Float links side by side */
+            text-align: center; /* Center-align text */
+            width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+            padding: 12px 0; /* Some top and bottom padding */
+            transition: all 0.3s ease; /* Add transition for hover effects */
+            color: black; /*text color */
+            font-size: 36px; /* Increased font size */
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+            [class*="col-"] {
+                float:left;
+                width:100%;
+            }
+            @media only screen and (min-width: 600px) {
+                .col-1 {width: 8.33%;}
+                .col-2 {width: 16.66%;}
+                .col-3 {width: 25%;}
+                .col-4 {width: 33.33%;}
+                .col-5 {width: 41.66%;}
+                .col-6 {width: 50%;}
+                .col-7 {width: 58.33%;}
+                .col-8 {width: 66.66%;}
+                .col-9 {width: 75%;}
+                .col-10 {width: 83.33%;}
+                .col-11 {width: 91.66%;}
+                .col-12 {width: 100%;}
+            }
+            @keyframes slide {
+                0%{transform: translateX(2000px);}
+
+                5%{transform: translateX(1900px);}
+
+                10%{transform: translateX(1800px);}
+
+                15%{transform: translateX(1700px);}
+
+                20% {transform: translateX(1600px);}
+                
+                25%{transform: translateX(1500px);}
+                
+                30% {transform:translateX(1400px);}
+                
+                35%{transform: translateX(1300px);}
+                
+                40%{transform: translateX(1200px);}
+                
+                45%{transform: translateX(1100px);}
+                
+                50% {transform:translateX(1000px);}
+                
+                55%{transform: translateX(900px);}
+                
+                60% {transform: translateX(800px);}
+                
+                65%{transform: translateX(700px);}
+                
+                70%{transform: translateX(600px);}
+                
+                75%{transform: translateX(500px);}
+                
+                80%{transform:translateX(400px);}
+                
+                85%{transform: translateX(300px);}
+                
+                90%{transform: translateX(200px);}
+                
+                95%{transform: translateX(100px);}
+                
+                100%{transform: translateX(0px);}
+            }
+            h1{
+                animation-name: slide;
+                animation-iteration-count:1;
+                animation-duration: 0.75s;
+            }
+            .source{
+                margin-left:1%;
+            }
